@@ -1,0 +1,29 @@
+.details-container{
+    margin: 70px 100px;
+    width: 450px;
+    margin: 10px auto;
+    text-align: center;
+    border:5px solid teal;
+    border-radius: 10px;
+
+}
+.details-container>h1{
+    border-bottom: 5px solid teal;
+}
+.details-section{
+    margin: 15px ;
+    text-align: left;
+
+}
+
+.details-section  p{
+    padding: 10px ;
+    font-size: 20px ;
+    font-weight: 900;
+    text-align: left;
+
+
+}
+.details-section  p:hover{
+    background-color: turquoise;
+}

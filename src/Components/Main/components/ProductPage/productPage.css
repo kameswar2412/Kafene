@@ -1,0 +1,87 @@
+
+#order-section {
+    padding: 10px 100px;
+    min-height: 84vh;
+}
+
+#filter-order-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#order-section > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#filter-item-wrapper {
+    width: 100%;
+    max-width: 15%;
+}
+
+#filter-item-wrapper > h3 {
+    margin-top: 0;
+}
+
+
+#filter-option-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-option-label {
+    margin: 6px 0;
+}
+
+#order-count {
+    margin-top: 0;
+}
+
+#table {
+    width: 86%;
+    border-collapse: collapse;
+    text-align: left;
+   
+}
+
+.table-heading {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.order-item-wrapper {
+    background-color: white;
+    display: table-row;
+    margin-bottom: 15px;
+    border-color: white;
+    border-bottom: 4px solid #f6f7fb;
+    cursor: pointer;
+
+}
+
+.table-data {
+    background-color: #fff;
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    width: 135px;
+}
+
+.table-data-fade {
+    background-color: #fff;
+    text-align: left;
+    padding: 0 24px;
+    font-size: 14px;
+    color: #8c8c8c;
+    width: 100px;
+}
+
+.table-data>span {
+    color: #8c8c8c;
+    display: block;
+}
+
